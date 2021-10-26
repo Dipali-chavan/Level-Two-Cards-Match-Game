@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js" async></script>
+  <title>Match</title>
+</head>
+<body>
+    <div class="header" style="z-index:1;">
+    <!-- Start lOGO and Social Buttons div -->
+    <a href="https://www.momsbelief.com/"><img src="Assets/Images/logo2.png" style="width: 200px;" align="right" ></a>
+    
+    <div style="left: 450px; position: fixed;">
+
+  <h1 class="page-title">Colors Matching Game</h1>   
+  <div class="overlay-text visible">
+    Click to Start
+  </div>
+  <div id="game-over-text" class="overlay-text">
+   
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div id="victory-text" class="overlay-text">
+    VICTORY
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+
+  <div class="game-container">
+
+    <div class="game-info-container">
+      <div class="game-info">
+        Time <span id="time-remaining">100</span>
+      </div>
+      <div class="game-info">
+        Flips <span id="flips">0</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="" src="">
+        <img class="" src="">
+        <img class="" src="">
+        <img class="" src="">
+        <img class="" src="Assets/Images/1.jpg">
+      </div>
+      <div class="card-front card-face">
+        <img class="" src="">
+        <img class="" src="">
+        <img class="" src="">
+        <img class="" src="">
+        <img class="card-value" src="Assets/Images/1.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="" src="">
+        <img class="" src="">
+        <img class="" src="">
+        <img class="" src="">
+        <img class="" src="Assets/Images/1.jpg">
+      </div>
+      <div class="card-front card-face">
+     <img class="" src="">
+        <img class="" src="">
+        <img class="" src="">
+        <img class="" src="">
+        <img class="card-value" src="Assets/Images/1.jpg">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+     
+        <img class="card-value" src="Assets/Images/2.jpg">
+      </div>
+
+      <div class="card-front card-face">
+      
+        <img class="card-value" src="Assets/Images/2.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+      <img class="card-value" src="Assets/Images/2.jpg">
+    
+      </div>
+      <div class="card-front card-face">
+  
+        <img class="card-value" src="Assets/Images/2.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+           <img class="card-value" src="Assets/Images/3.jpg">
+      </div>
+      <div class="card-front card-face">
+      
+        <img class="card-value" src="Assets/Images/3.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+          <img class="card-value" src="Assets/Images/3.jpg">
+      </div>
+      <div class="card-front card-face">
+  
+        <img class="card-value" src="Assets/Images/3.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-value" src="Assets/Images/4.jpg">
+      </div>
+      <div class="card-front card-face">
+   
+        <img class="card-value" src="Assets/Images/4.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-value" src="Assets/Images/4.jpg">
+      </div>
+      <div class="card-front card-face">
+     
+        <img class="card-value" src="Assets/Images/4.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+   <img class="card-value" src="Assets/Images/5.jpg">
+      </div>
+      <div class="card-front card-face">
+   
+        <img class="card-value" src="Assets/Images/5.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+         <img class="card-value" src="Assets/Images/5.jpg">
+      </div>
+      <div class="card-front card-face">
+
+        <img class="card-value" src="Assets/Images/5.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+          <img class="card-value" src="Assets/Images/6.jpg">
+      </div>
+      <div class="card-front card-face">
+       
+        <img class="card-value" src="Assets/Images/6.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+         <img class="card-value" src="Assets/Images/6.jpg">
+      </div>
+      <div class="card-front card-face">
+   
+        <img class="card-value" src="Assets/Images/6.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+         <img class="card-value" src="Assets/Images/7.jpg">
+      </div>
+      <div class="card-front card-face">
+  
+        <img class="card-value" src="Assets/Images/7.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+       <img class="card-value" src="Assets/Images/7.jpg">
+      </div>
+      <div class="card-front card-face">
+
+        <img class="card-value" src="Assets/Images/7.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+          <img class="card-value" src="Assets/Images/8.jpg">
+  
+      </div>
+      <div class="card-front card-face">
+     
+        <img class="card-value" src="Assets/Images/8.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+          <img class="card-value" src="Assets/Images/8.jpg">
+        
+      </div>
+      <div class="card-front card-face">
+      
+        <img class="card-value" src="Assets/Images/8.jpg">
+      </div>
+    </div>
+  </div>
+ <div class="footer" style="z-index:0;"><center>
+    <!-- Start lOGO and Social Buttons div -->
+    <a href="https://www.momsbelief.com/"><img src="Assets/Images/logo 1.png" style="width: 150px;" align="center" ></a>
+    
+    <div style="right: : 450px; position: fixed;"></center>
+</body>
+</html>
